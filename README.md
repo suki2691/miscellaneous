@@ -3,7 +3,7 @@
 To run the app-
 
 * Install the setup into a virtual environment from the [requirements text file](https://github.com/suki2691/miscellaneous/blob/master/requirements.txt)
-* Open a terminal and type 'mongod' to ensure that the MongoDB server is active
+* Open a terminal and type `mongod` to ensure that the MongoDB server is active
 * Run the file named [mongo_data.py](https://github.com/suki2691/miscellaneous/blob/master/mongo_data.py) to store the data into the database
 * Then run the app file - [alt_app.py](https://github.com/suki2691/miscellaneous/blob/master/alt_app.py) by using the following command-
 `gunicorn alt_app:app`
