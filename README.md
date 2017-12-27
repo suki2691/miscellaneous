@@ -6,7 +6,6 @@ To run the app-
 * Open a terminal and type 'mongod' to ensure that the MongoDB server is active
 * Run the file named [mongo_data.py](https://github.com/suki2691/miscellaneous/blob/master/mongo_data.py) to store the data into the database
 * Then run the app file - [alt_app.py](https://github.com/suki2691/miscellaneous/blob/master/alt_app.py) by using the following command-
-
 `gunicorn alt_app:app`
 * The user input prompt will appear in the terminal. Please enter the first name whose first experience you wish to see
 * The results will appear [here](http://127.0.0.1:8000/users)
