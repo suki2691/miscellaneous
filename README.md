@@ -9,3 +9,8 @@ To run the app-
 `gunicorn alt_app:app`
 * The user input prompt will appear in the terminal. Please enter the first name whose first experience you wish to see
 * The results will appear [here](http://127.0.0.1:8000/users)
+
+## Update- 1/13/2018
+* The data models for the MongoDB are now defined using MongoEngine
+* After running the `gunicorn alt_app:app` in the terminal, the user's first working experience can be obtained by following this format- `http://127.0.0.1:8000/users?firstname=Jarrah`
+
